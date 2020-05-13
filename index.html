@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>TV Show Project | Kyaw (kiowd)</title>
     <link href="style.css" rel="stylesheet" />
+    <link href="level5.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
-    <div id="root">
+    <div id="root"></div>
+    <div class="container">
+      <select id="allShows" class="allShows" name=" ">
+        <option id="all_shows" value=" ">All TV Shows</option>
+      </select>
+      <select id="ep_s_e" class="ep_s_e" name="seasonAndNum">
+        <option id="all_movies" value=" ">All Episodes</option>
+      </select>
+      <input
+        type="text"
+        id="searchBar"
+        class="searchBar"
+        placeholder="Search.."
+      />
+      <p class="length"></p>
+      <button id="btn" class="btn">AllShows</button>
     </div>
+
+    <div id="level100" class="level100"></div>
+
+    <div id="level500"></div>
+
+    <!-- Loads a provided function called getAllShows() which returns all shows -->
+
+    <script src="shows.js"></script>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>

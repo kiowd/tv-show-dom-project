@@ -1,0 +1,59 @@
+.btn {
+	background-color: yellow;
+	width: 150px;
+	height: 120px;
+	border-radius: 20px;
+	font-size: 2rem;
+}
+.wrapper {
+	border: 2px solid white;
+	
+}
+
+.title {
+	color: darkgoldenrod;
+	font-size: 3.5rem;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.summary {
+	color: greenyellow;
+	font-size: 1.5rem;
+	margin: 0 2px 0 25px;
+}
+
+.small_container {
+	width: 35%;
+	padding: 50px 10px 50px 10px;
+	/* border: 2px double seashell; */
+	box-shadow: 0 8px 6px 6px;
+	background-color: ghostwhite;
+	margin-bottom: 90px;
+}
+
+.summa {
+	color: darkturquoise;
+	font-size: 1.4rem;
+}
+
+@media screen and (max-width: 680px){
+
+	.small_container {
+	width: 75%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.btn { 
+	width: 180px;
+	height: 80px;
+	font-size: 1.4rem;
+}
+
+
+
+}
