@@ -42,7 +42,7 @@ function displayDataForAllEpisode(allEpisodes) {
   const divEl = document.getElementById("level100");
   allEpisodes.forEach((ep) => {
     let wrap_divEl = document.createElement("div");
-    wrap_divEl.setAttribute("id", "warpper");
+    wrap_divEl.setAttribute("id", "wrapper");
     divEl.append(wrap_divEl);
     wrap_divEl.innerHTML = `<h1 class= "ep_name">
 		${ep.name} - S${ep.season
